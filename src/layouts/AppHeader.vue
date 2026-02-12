@@ -2,10 +2,9 @@
   <header class="header" :class="{ 'header-scrolled': isScrolled }">
     <div class="container">
       <nav class="nav">
-        <a href="#home" class="logo">{{ profile.name }}</a>
+        <a href="#home" class="logo">JP</a>
         <div class="nav-links">
           <a href="#home" class="nav-link" :class="{ active: activeSection === 'home' }">Home</a>
-          <a href="#about" class="nav-link" :class="{ active: activeSection === 'about' }">About</a>
           <a href="#skills" class="nav-link" :class="{ active: activeSection === 'skills' }">Skills</a>
           <a href="#projects" class="nav-link" :class="{ active: activeSection === 'projects' }">Projects</a>
           <a href="#contact" class="nav-link" :class="{ active: activeSection === 'contact' }">Contact</a>
@@ -17,9 +16,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { usePortfolioStore } from '@/stores/counter'
 
-const { profile } = usePortfolioStore()
 const isScrolled = ref(false)
 const activeSection = ref('home')
 
@@ -28,7 +25,7 @@ const handleScroll = () => {
   
   isScrolled.value = window.scrollY > 50
   
-  const sections = ['home', 'about', 'skills', 'projects', 'contact']
+  const sections = ['home', 'skills', 'projects', 'contact']
   const current = sections.find(section => {
     const element = document.getElementById(section)
     if (element) {

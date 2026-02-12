@@ -49,18 +49,6 @@
         </div>
       </section>
 
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <div class="container">
-          <div class="content">
-            <h2>About Me</h2>
-            <div class="about-content">
-              <p v-for="paragraph in aboutParagraphs" :key="paragraph">{{ paragraph }}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Skills Section -->
       <section id="skills" class="skills section-sm">
         <div class="container">
@@ -104,7 +92,7 @@
       <section id="contact" class="contact section">
         <div class="container">
           <div class="content">
-            <h2>Contact</h2>
+            <h2 class="contact-title">Contact</h2>
             <div class="contact-content">
               <p class="contact-intro">
                 Let's build frontend systems that are fast, scalable, and future-ready. I specialize in high-performance frontend engineering for complex financial products.
@@ -156,7 +144,6 @@ import ProjectCard from '@/components/cards/ProjectCard.vue'
 const { profile, workExperience, skills } = usePortfolioStore()
 
 const bioParagraphs = computed(() => profile.bio.split('\n\n'))
-const aboutParagraphs = computed(() => profile.about.split('\n\n'))
 
 onMounted(() => {
   window.scrollTo(0, 0)
@@ -228,10 +215,14 @@ onMounted(() => {
   margin-bottom: var(--space-6);
 }
 
-#projects{
-  background-color: var(--color-surface)
+#skills{
+  background-color: var(--color-surface);
 }
 
+#contact{
+  background-color: var(--color-surface);
+;
+}
 .hero-tagline {
   font-size: var(--font-size-xl);
   margin-bottom: var(--space-8);
@@ -343,6 +334,12 @@ onMounted(() => {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   border: 1px solid var(--color-border);
+  transition: all var(--transition-fast);
+}
+
+.skill-tags:hover .skill-tag {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .work-header h3 {
@@ -398,6 +395,9 @@ onMounted(() => {
   border-color: var(--color-primary);
 }
 
+.contact-title{
+  margin-bottom: var(--space-4);
+}
 .contact-method-icon {
   font-size: var(--font-size-2xl);
   width: 48px;
