@@ -24,6 +24,8 @@ const isScrolled = ref(false)
 const activeSection = ref('home')
 
 const handleScroll = () => {
+  if (typeof window === 'undefined') return
+  
   isScrolled.value = window.scrollY > 50
   
   const sections = ['home', 'about', 'skills', 'projects', 'contact']
