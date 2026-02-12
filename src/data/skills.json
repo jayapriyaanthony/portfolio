@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Frontend Development",
+    "technologies": ["Vue.js", "Angular", "ReactJS", "Vuetify", "Pinia", "CSS3", "HTML5", "JavaScript", "TypeScript", "UI/UX Design"]
+  },
+  {
+    "category": "Backend & APIs",
+    "technologies": ["Node.js", "Express.js", "REST APIs", "MySQL", "Axios"]
+  },
+  {
+    "category": "Testing & Tools",
+    "technologies": ["Integration Testing", "Unit Testing", "Postman", "Git", "Jira", "Confluence", "Slack"]
+  },
+  {
+    "category": "AI & Emerging Tech",
+    "technologies": ["Amazon AI", "Cursor AI", "Prompt-driven migration workflows", "AI coding standards"]
+  }
+]

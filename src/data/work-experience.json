@@ -1,0 +1,65 @@
+{
+  "title": "Associate Consultant",
+  "company": "Intellect Design Arena Ltd",
+  "companyDescription": "A global product engineering company specializing in enterprise financial technology solutions.",
+  "projects": [
+    {
+      "name": "MAS — Data-Heavy Product Interface",
+      "description": "High-performance interface for handling large datasets in production environments",
+      "technologies": ["Vue.js", "AG-Grid", "Pinia"],
+      "achievements": [
+        "Delivered responsive, cross-browser features used in production environments",
+        "Built high-performance AG-Grid interfaces to handle large datasets without UI lag",
+        "Improved data flow and UI predictability using Pinia for state management",
+        "Reduced application load time by 30% through targeted refactoring",
+        "Increased overall stability through unit and integration testing practices"
+      ]
+    },
+    {
+      "name": "RA 2.0 — Rebuilt from Scratch in Vue 3",
+      "description": "Complete product rebuild replacing legacy Ext.js system",
+      "technologies": ["Vue 3", "Vuetify", "Google Maps API", "Google Autocomplete"],
+      "achievements": [
+        "Created the product from the ground up, replacing a legacy Ext.js system",
+        "Designed reusable component architecture using Vue 3 and Vuetify",
+        "Integrated Google Maps and Google Autocomplete for core workflows",
+        "Worked closely with designers and backend teams to align UX with technical structure",
+        "Delivered a cleaner, faster, and far more maintainable frontend foundation"
+      ]
+    },
+    {
+      "name": "MPL — Angular Product Engineering",
+      "description": "Feature development and dual-monitor synchronization implementation",
+      "technologies": ["Angular", "Angular Material", "BroadcastChannel API", "LocalStorage"],
+      "achievements": [
+        "Implemented multiple product features using Angular and Angular Material",
+        "Engineered dual-monitor synchronization using BroadcastChannel API and LocalStorage",
+        "Collaborated with UX to improve usability, increasing user satisfaction by 15%"
+      ]
+    },
+    {
+      "name": "FABRIC — Full Legacy Revamp (Ext.js → Vue 3)",
+      "description": "End-to-end legacy system modernization with AI-assisted development",
+      "technologies": ["Vue 3", "Ext.js", "Amazon Q", "Cursor AI"],
+      "achievements": [
+        "Independently led the end-to-end revamp from Ext.js to Vue 3",
+        "Analyzed legacy product, removed unused features, and redefined the UI scope",
+        "Improved responsiveness and long-term maintainability during migration",
+        "Used Amazon Q and Cursor AI to accelerate revamp while defining AI usage standards for future developers"
+      ]
+    }
+  ],
+  "achievements": [
+    "Top Performer — Angular Stream, FinTech Engineer Development Program",
+    "Certificate of Appreciation for contribution to Intellect AI \"Magic Placement\"",
+    "Successfully executed full product revamp from Ext.js to Vue 3",
+    "Recognized for solving complex UI architecture and performance challenges"
+  ],
+  "highlights": {
+    "loadTime": "30% Faster Load Times",
+    "satisfaction": "15% Higher User Satisfaction",
+    "rebuilds": "1 Legacy System Rebuilt",
+    "experience": "3+ Years Experience",
+    "cgpa": "9.37 CGPA"
+  }
+}

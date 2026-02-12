@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Migrating from Ext.js to Vue 3: Lessons from a Legacy Revamp",
+    "excerpt": "How I led a complete frontend transformation using AI tools while maintaining architectural integrity and defining new development standards.",
+    "date": "2024-01-15",
+    "readTime": "8 min read",
+    "tags": ["Vue.js", "Migration", "Legacy Systems", "AI Tools"],
+    "slug": "extjs-to-vue3-migration"
+  },
+  {
+    "id": "2",
+    "title": "Building Dual-Monitor Sync with Browser APIs",
+    "excerpt": "Engineering cross-window synchronization using BroadcastChannel API and LocalStorage for enterprise financial applications.",
+    "date": "2023-12-10",
+    "readTime": "6 min read",
+    "tags": ["Browser APIs", "Angular", "Enterprise", "Synchronization"],
+    "slug": "dual-monitor-sync-browser-apis"
+  },
+  {
+    "id": "3",
+    "title": "How I Work With AI: Engineering Workflow, Not Shortcuts",
+    "excerpt": "AI is part of my engineering workflow, not a shortcut. During the Ext.js → Vue 3 revamp, I used Amazon Q and Cursor to break down legacy logic, plan structured rewrites, and maintain consistent coding standards through prompts.",
+    "date": "2023-11-20",
+    "readTime": "5 min read",
+    "tags": ["AI", "Development Workflow", "Amazon Q", "Cursor"],
+    "slug": "ai-engineering-workflow"
+  }
+]
